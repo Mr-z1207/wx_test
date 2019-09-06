@@ -1,0 +1,24 @@
+<!--pages/article/article.wxml-->
+<import src="./article-template/article-template" />
+<view>
+  <swiper indicator-dots="false" autoplay="true" interval="5000" duration="1000">
+    <block>
+      <swiper-item>
+        <image src="/img/bd/bd1.jpg" class="slide-image" width="355" height="150" />
+      </swiper-item>
+      <swiper-item>
+        <image src="/img/bd/bd2.jpg" class="slide-image" width="355" height="150" />
+      </swiper-item>
+      <swiper-item>
+        <image src="/img/bd/bd3.png" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='article-wrap'>
+    <block class='article-item' wx:for="{{articles}}" wx:for-index="idx" wx:for-item="article" wx:key="idx">
+      <view catchtap='tapArticleItem' data-article-id='{{article.articleId}}'>
+        <template is="msgItem" data="{{article}}" />
+      </view>
+    </block>
+  </view>
+</view>
