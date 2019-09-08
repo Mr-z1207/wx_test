@@ -52,7 +52,7 @@ Page({
     })
   },
   catchtaptext:function(e){
-    wx.navigateTo({
+    wx.switchTab({
       url: '../article/article',
     })
   }

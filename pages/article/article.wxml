@@ -4,13 +4,13 @@
   <swiper indicator-dots="false" autoplay="true" interval="5000" duration="1000">
     <block>
       <swiper-item>
-        <image src="/img/bd/bd1.jpg" class="slide-image" width="355" height="150" />
+        <image src="/img/ad/ad1.png" class="slide-image" width="355" height="150" />
       </swiper-item>
       <swiper-item>
-        <image src="/img/bd/bd2.jpg" class="slide-image" width="355" height="150" />
+        <image src="/img/ad/ad2.jpg" class="slide-image" width="355" height="150" />
       </swiper-item>
       <swiper-item>
-        <image src="/img/bd/bd3.png" class="slide-image" width="355" height="150" />
+        <image src="/img/ad/ad3.jpg" class="slide-image" width="355" height="150" />
       </swiper-item>
     </block>
   </swiper>

@@ -1,0 +1,3 @@
+@import "./movie-list-template/movie-list-template";
+@import "./movie-item-template/movie-item-template";
+@import "./star-template/star-template";

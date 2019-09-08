@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/article/article",
-    "pages/article/article-detail/article-detail"
+    "pages/article/article-detail/article-detail",
+    "pages/movie/movie"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,5 +12,27 @@
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
   },
+  "tabBar": {
+    "color":"#8a8a8a",
+    "selectedColor":"#1296db",
+    "list": [
+      {
+        "text":"文章",
+        "iconPath":"img/icon/doc-none.png",
+        "selectedIconPath":"img/icon/doc.png",
+        "pagePath": "pages/article/article"
+      },
+      {
+        "text":"电影",
+        "iconPath": "img/icon/movie-none.png",
+        "selectedIconPath": "img/icon/movie.png",
+        "pagePath": "pages/movie/movie"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio",
+    "location"
+  ],
   "sitemapLocation": "sitemap.json"
 }

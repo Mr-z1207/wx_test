@@ -4,12 +4,12 @@
     <text class='article-head-date'>{{article.date}}</text>
   </view>
   <text class='article-title'>{{article.title}}</text>
-  <image class='article-img' src='{{article.img}}'></image>
+  <image class='article-img' src='{{article.img}}' mode="aspectFit"></image>
   <text class='article-desc'>{{article.desc}}</text>
   <view class='article-footer'>
-    <image class='article-footer-icon' src='/img/icon/star.jpg'></image>
+    <image class='article-footer-icon' src='/img/icon/star.png'></image>
     <text class='article-footer-text'>{{article.star}}</text>
-    <image class='article-footer-icon' src='/img/icon/view.jpg'></image>
+    <image class='article-footer-icon' src='/img/icon/view.png'></image>
     <text class='article-footer-text'>{{article.view}}</text>
   </view>
 </template>
