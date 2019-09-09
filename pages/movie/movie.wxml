@@ -1,4 +1,6 @@
 <import src="./movie-list-template/movie-list-template" />
 <view class='movie-wrap'>
-  <template is="movieList" />
+  <template is="movieList" data="{{movie:movHoting,tag:'正在热映'}}"/>
+  <template is="movieList" data="{{movie:movNext,tag:'即将上映'}}"/>
+  <template is="movieList" data="{{movie,tag:'豆瓣Top250'}}"/>
 </view>

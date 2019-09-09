@@ -36,3 +36,14 @@ var articles = [
 module.exports = {
   articles: articles
 }
+
+
+/*
+豆瓣api:
+正在热映
+http://t.yushu.im/v2/movie/in_theaters?start=0&count=3
+即将上映
+http://t.yushu.im/v2/movie/coming_soon?start=0&count=3
+豆瓣Top250
+http://t.yushu.im/v2/movie/top250?start=0&count=3
+*/
